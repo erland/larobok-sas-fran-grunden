@@ -1,0 +1,53 @@
+title: Sås från grunden
+subtitle: En nybörjarguide till smak, teknik och mästerliga såser
+author: Erland Lindmark
+language: sv
+difficulty: beginner-to-basic
+audience: Nybörjare på sås som vill bli mästerkock
+book_type: textbook
+pedagogical_style: 'Blandad: förklarande teori och praktisk steg-för-steg'
+culinary_style: Modern hemmamat
+recipe_style: Blandade vardagsrecept och restauranginspirerade helgrecept
+edition: '1'
+version: '0.1'
+date: '2026-05-19'
+rights: All rights reserved
+publisher: ''
+cover_image: assets/cover/cover.png
+identifier: urn:uuid:b8a5cc30-38c4-42be-b4e7-603a18187568
+creator_role: aut
+subject: Matlagning; såser; grundläggande kokteknik
+description: En svensk nybörjarbok som lär ut smak, teknik och praktiskt såstänk för
+  modern hemmamat.
+project_slug: sas-fran-grunden
+chapters:
+- chapters/00-inledning.md
+- chapters/vad-ar-en-bra-sas-01.md
+- chapters/koket-och-verktygen-02.md
+- chapters/smakens-grunder-03.md
+- chapters/buljong-och-fond-04.md
+- chapters/redning-och-konsistens-05.md
+- chapters/emulsioner-06.md
+- chapters/de-klassiska-bassaserna-07.md
+- chapters/varma-saser-till-kott-och-fagel-08.md
+- chapters/saser-till-fisk-och-skaldjur-09.md
+- chapters/kalla-saser-och-dressingar-10.md
+- chapters/att-radda-en-misslyckad-sas-11.md
+- chapters/skapa-egna-saser-12.md
+- chapters/menyer-och-kombinationer-13.md
+- chapters/masterkapitlet-14.md
+exports:
+  epub:
+    enabled: true
+    include_text_toc: false
+    airy_layout: true
+    render_markdown_styles: true
+  pdf:
+    enabled: true
+    include_toc_before_introduction: true
+    render_markdown_styles: true
+  docx:
+    enabled: true
+    render_markdown_styles: true
+  markdown:
+    enabled: true

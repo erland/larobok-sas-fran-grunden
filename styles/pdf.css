@@ -1,0 +1,36 @@
+@page {
+  margin: 2.2cm;
+}
+body {
+  font-family: serif;
+  line-height: 1.45;
+  font-size: 11pt;
+}
+p {
+  margin: 0 0 0.75em 0;
+}
+h1 {
+  page-break-before: always;
+  margin-top: 0;
+}
+h1, h2, h3 {
+  line-height: 1.25;
+  margin-bottom: 0.55em;
+}
+ul, ol {
+  margin-top: 0.5em;
+  margin-bottom: 0.8em;
+}
+table {
+  border-collapse: collapse;
+  width: 100%;
+  margin: 1em 0;
+}
+th, td {
+  border: 1px solid #777;
+  padding: 0.4em;
+}
+img {
+  max-width: 100%;
+  height: auto;
+}
